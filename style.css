@@ -1,0 +1,136 @@
+body{
+  margin: :0;
+  padding: 0;
+  background: url("UIFiles/Backgroundlogin.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+  background-size: 100% auto;
+  font-family: sans-serif;
+
+}
+.loginbox{
+  width: 400px;
+  height: 600px;
+  background: #28a8e0;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  opacity: 0.96;
+
+}
+
+.tablebox{
+  width: 800px;
+  height: 800px;
+  background: #28a8e0;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  opacity: 0.96;
+
+}
+.content-table{
+  border-collapse: collapse;
+  margin: 25px;
+  font-size: 20px;
+  min-width: 600px;
+  background-color: #66c4ed;
+  opacity: 0.96;
+  border-bottom: 2px solid white;
+}
+.content-table thead tr{
+    background-color: white;
+
+}
+
+.content-table th{
+    padding: 12px 15px;
+}
+.content-table td{
+    padding: 12px 15px;
+}
+.content-table tbody tr{
+    border-bottom: 1px solid #28a8e0;
+    colot:white;
+}
+.content-table tbody tr:nth-of-type(even){
+    background-color: #96d9f6;
+}
+.clickable {
+            background: #66c4ed;
+        }
+
+        .clickable:hover {
+            background: #28a8e0;
+        }
+.avatar{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  top: -75px;
+  left: calc(50% - 75px);
+
+}
+h1{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 25px;
+}
+.loginbox p{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+.loginbox input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.loginbox input[type="text"], input[type="password"]
+{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 50px;
+  color: #fff;
+  font-size: 16px;
+}
+.loginbox input[type="submit"]
+{
+  border: none;
+  outline: none;
+  height: 50px;
+  background: #fff;
+  color: #28a8e0;
+  font-size: 25px;
+}
+.loginbox input[type="submit"]:hover
+{
+  opacity: 0.90;
+  cursor: pointer;
+}
+.loginbox a{
+  text-decoration:none;
+  font-size: 20px;
+  line-height: 25px;
+  color: white;
+  text-align: center;
+}
+.loginbox a:hover
+{
+  opacity: 0.90;
+  cursor: pointer;
+}

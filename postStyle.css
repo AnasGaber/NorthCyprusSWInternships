@@ -1,0 +1,85 @@
+body{
+  margin: :0;
+  padding: 0;
+  background: url("UIFiles/Backgroundlogin.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+  background-size: 100% auto;
+  font-family: sans-serif;
+
+}
+.loginbox{
+  width: 400px;
+  height: 900px;
+  background: #28a8e0;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+  opacity: 0.96;
+
+}
+
+.
+}
+h1{
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 25px;
+}
+.loginbox p{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+.loginbox input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+.loginbox input[type="text"], input[type="password"]
+{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 50px;
+  color: #fff;
+  font-size: 16px;
+}
+.loginbox input[type="submit"]
+{
+  border: none;
+  outline: none;
+  height: 50px;
+  background: #fff;
+  color: #28a8e0;
+  font-size: 25px;
+}
+.loginbox input[type="submit"]:hover
+{
+  opacity: 0.90;
+  cursor: pointer;
+}
+.loginbox button{
+  width: 100%;
+  margin-bottom: 50px;
+  border: none;
+  outline: none;
+  height: 50px;
+  background: #fff;
+  color: #28a8e0;
+  font-size: 25px;
+}
+
+.loginbox button:hover
+{
+  opacity: 0.90;
+  cursor: pointer;
+}

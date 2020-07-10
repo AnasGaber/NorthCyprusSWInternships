@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>Post Internship</title>
+      <link rel="stylesheet" type="text/css" href="postStyle.css">
+    <body>
+      <form method="post" action="handlePosting.py">
+          <div class="loginbox">
+            <h1>Post New Internship</h1>
+            <p>Please fill in this form to post an intership</p>
+            <form>
+              <p>Position Name</p>
+              <input type="text" name="position" placeholder="Position" required>
+              <p>Position Description</p>
+              <input type="text" name="positiondesc" placeholder="Position Description" required>
+              <p>Expectations</p>
+              <input type="text" name="expect" placeholder="Expectations" required>
+              <p>Deadline</p>
+              <input type="text" name="deadline" placeholder="YYYY-MM-DD" required>
+              <br><input type="submit" name="post" value="Post Internship"><br>
+              </form>
+              <form action="http://localhost/northcyprusswinterns/mainmenu.html">
+                <br><input type="submit" name="main" value="Mainmenu"><br>
+              </form>
+            </form>
+    </body>
+</head>
+</html>
